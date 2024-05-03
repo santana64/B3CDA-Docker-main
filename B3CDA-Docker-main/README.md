@@ -1,31 +1,14 @@
-# Gestion des produits avec Docker
+Configuration
 
-Ce projet utilise Docker pour conteneuriser une application de gestion de produits. L'objectif est de fournir une infrastructure portable et reproductible pour le déploiement et le développement de l'application, en utilisant différents moteurs de base de données.
+Dockerfile : Contient les directives pour construire l'image Docker de l'application PHP.
+Dockerfile.postgresql : Spécifie les étapes pour construire l'image Docker pour PostgreSQL.
+docker-compose.yml : Définit les services Docker pour l'application et la base de données.
 
-## Conteneurisation de l'application
+Utilisation des Services de Base de Données
+Vous pouvez utiliser le service PostgreSQL configuré pour gérer les données. Les détails de connexion sont spécifiés dans docker-compose.yml.
 
-L'application est conteneurisée à l'aide de Docker et Docker Compose. Voici les étapes principales pour utiliser ce projet :
+Contribution
+Les contributions à ce projet sont bienvenues. Veuillez consulter CONTRIBUTING.md pour les directives sur comment contribuer au projet.
 
-1. **Clonage du dépôt Git :**
-   git clone https://github.com/LiamImamovic/B3CDA-Docker/
-   cd gestion-produits
-
-2. **Construction et lancement des conteneurs :**
-   docker-compose up -d
-
-3. **Accès à l'application :**
-   Une fois les conteneurs démarrés, vous pouvez accéder à l'application via votre navigateur web en utilisant l'URL http://localhost:8080.
-
-## Utilisation
-
-- Assurez-vous que Docker et Docker Compose sont installés sur votre système.
-- Clonez le dépôt Git et accédez au répertoire du projet.
-- Utilisez la commande `docker-compose up -d` pour construire les images et démarrer les conteneurs.
-- Accédez à l'application via votre navigateur web en utilisant l'URL http://localhost:8080.
-- Vous pouvez utiliser le conteneur PostgreSQL pour stocker les données de l'application. Les informations de connexion sont fournies dans le fichier `docker-compose.yml`.
-
-## Configuration
-
-- Le fichier `Dockerfile` contient les instructions pour construire l'image Docker de l'application PHP.
-- Le fichier `Dockerfile.postgresql` contient les instructions pour construire l'image Docker de PostgreSQL.
-- Le fichier `docker-compose.yml` définit les services Docker utilisés pour exécuter l'application et la base de données.
+Licence
+Ce projet est distribué sous licence MIT. Voir le fichier LICENSE pour plus de détails.

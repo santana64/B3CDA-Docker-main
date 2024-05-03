@@ -1,0 +1,12 @@
+# Utilisation d'une image MySQL comme base
+FROM mysql:5.7
+
+# Définition des variables d'environnement pour le mot de passe root et la base de données
+ENV MYSQL_ROOT_PASSWORD=root_password
+ENV MYSQL_DATABASE=nom_de_la_base_de_donnees
+
+# Copie du fichier SQL dans le conteneur
+COPY gestion_produits.sql /docker-entrypoint-initdb.d/
+
+# Exposition du port MySQL
+EXPOSE 8889

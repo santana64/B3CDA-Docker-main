@@ -1,8 +1,4 @@
-# Utilisation d'une image PHP Apache comme base
-FROM php:7.4-apache
-
-# Copie des fichiers de l'application dans le conteneur
+FROM php:8.3-apache
+RUN docker-php-ext-install mysqli
 COPY . /var/www/html/
-
-# Exposition du port 80
-EXPOSE 80
+COPY ./your_sql_file.sql /docker-entrypoint-initdb.d/

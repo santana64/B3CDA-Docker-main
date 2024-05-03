@@ -2,14 +2,16 @@
 
 ﻿# Projet de Gestion de Produits avec Docker
 
-﻿#Description du Projet : 
+﻿# Description du Projet : 
  
  Ce projet utilise Docker pour conteneuriser une application de gestion de produits, avec pour objectif de fournir une infrastructure portable et reproductible pour le déploiement et le développement de l'application, tout en supportant différents moteurs de base de données.
 
 ﻿# Fonctionnalités : 
  Conteneurisation avec Docker : Isolation complète de l'environnement pour éviter les conflits de dépendances. Support multi-base de données : Compatible avec plusieurs systèmes de gestion de base de données pour une flexibilité maximale. Déploiement facile et rapide : Démarrez votre environnement de développement en quelques commandes.
 
-﻿# Prérequis : Docker Docker Compose
+﻿# Prérequis :
+ 
+ Docker Docker Compose
 
 ﻿# Installation et Démarrage :
 

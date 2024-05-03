@@ -15,7 +15,8 @@ Docker Compose
 Installation et Démarrage
 Clonage du dépôt
 Pour obtenir le projet, clonez le dépôt GitHub:
-git clone https://github.com/LiamImamovic/B3CDA-Docker/
+git clone https://github.com/santana64/B3CDA-Docker/
+
 cd gestion-produits
 
 Construction et Lancement des Conteneurs

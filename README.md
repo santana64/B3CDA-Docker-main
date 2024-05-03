@@ -8,7 +8,7 @@ Fonctionnalités : Conteneurisation avec Docker : Isolation complète de l'envir
 
 Prérequis : Docker Docker Compose
 
-Installation et Démarrage : Clonage du dépôt Pour obtenir le projet, clonez le dépôt GitHub: git clone https://github.com/santana64/B3CDA-Docker/  
+Installation et Démarrage : Clonage du dépôt Pour obtenir le projet, clonez le dépôt GitHub: git clone https://github.com/santana64/B3CDA-Docker-main 
 
 cd gestion-produits
 

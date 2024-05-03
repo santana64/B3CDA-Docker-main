@@ -4,34 +4,30 @@ Ce projet, intitulé "B3CDA-Docker-main", met en œuvre Docker pour conteneurise
 
 Fonctionnalités
 
--Conteneurisation avec Docker : Isolation complète de l'environnement pour éviter les conflits de dépendances.
--Support multi-base de données : Compatible avec plusieurs systèmes de gestion de base de données pour une flexibilité maximale.
--Déploiement facile et rapide : Démarrez votre environnement de développement en quelques commandes.
+Conteneurisation avec Docker : Isolation complète de l'environnement pour éviter les conflits de dépendances.
+Support multi-base de données : Compatible avec plusieurs systèmes de gestion de base de données pour une flexibilité maximale.
+Déploiement facile et rapide : Démarrez votre environnement de développement en quelques commandes.
 
 Prérequis
-
--Docker
--Docker Compose
+Docker
+Docker Compose
 
 Installation et Démarrage
--Clonage du dépôt
--Pour obtenir le projet, clonez le dépôt GitHub :
-
+Clonage du dépôt
+Pour obtenir le projet, clonez le dépôt GitHub :
 
 git clone https://github.com/santana64/B3CDA-Docker-main.git
 cd B3CDA-Docker-main
 
-  Construction et Lancement des Conteneurs
--Construisez les images Docker et lancez les conteneurs :
+Construction et Lancement des Conteneurs
+Construisez les images Docker et lancez les conteneurs :
 
 docker-compose up -d
 
 Accès à l'Application
-
 Une fois les conteneurs en fonction, accédez à l'application via : http://localhost:8080
 
 Gestion de Version
-
 Le projet utilise Git pour le contrôle de version. Les différentes configurations de base de données sont gérées dans des branches séparées pour une organisation claire du développement.
 
 Branches Principales
